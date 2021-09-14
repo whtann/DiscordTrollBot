@@ -15,7 +15,8 @@ class MyClient(discord.Client):
         print('Logged on as {0}!'.format(self.user))
 
     async def on_message(self, message):
-        print('Message from {0.author}: {0.content}'.format(message))
+        if (message.author.name == 'Czechbox'):
+            await message.channel.send("cringe")
 
 client = MyClient()
 client.run(load('token.txt'))
