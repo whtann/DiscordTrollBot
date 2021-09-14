@@ -1,2 +1,2 @@
 # DiscordTrollBot
- bot that trolls my friend''s other bot he made
+ bot that trolls my friend's other bot he made
